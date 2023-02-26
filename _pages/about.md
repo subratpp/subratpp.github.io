@@ -1,13 +1,11 @@
 ---
- permalink: /
- title: "About me"
- excerpt: "About me"
- author_profile: true
- redirect_from: 
-   - /about/
-   - /about.html
+permalink: /
+title: "About me"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
-
-This webpage is under construction. Sorry!
-
+Welcome! I am a PhD (CS) student working on explainability of RL policies.
