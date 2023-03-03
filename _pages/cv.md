@@ -11,30 +11,26 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Tech. in Electronics and Instrumentation Engineering, NIT Silchar, India, 2016
+* M.Tech. in Computer Science, ISI Kolkata, India, 2021
+* Ph.D (ongoing) in Computer Science and Engineering, NTU Singapore, 2027 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* CNRS@CREATE May'22-Dec'22: Research Associate
+  * Application of RL to Optimization Problem in Microgrid
+  * Duties included: Research
+  * Supervisor: Dr. Blaise and Prof. Arvind
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Infocusp Dec'21-May'22: Machine Learning Engineer
+  * Solving ARC
+  * Duties included: GP, Autoencoder and VAE implementation
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Deep Learning
+* Machine Learning
+* Reinforcement Learning
 
 Publications
 ======
@@ -56,4 +52,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* updating
