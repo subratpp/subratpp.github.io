@@ -53,3 +53,5 @@ Teaching
 Service and leadership
 ======
 * NTU SCSE GSC Member
+
+[Download CV here](http://subratpp.github.io/files/cv.pdf)
