@@ -9,3 +9,5 @@ redirect_from:
 ---
 
 Welcome! I am a PhD (CS) student working on explainability of RL policies.
+
+**Coming soon**: my first [blog](https://academicpages.github.io/posts/2023/05/blog-post-irl/) on Interpretability of RL policies.
