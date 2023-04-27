@@ -1,6 +1,6 @@
 ---
-title: 'Blog Post number 4'
-date: 2015-08-14
+title: 'Interpretable Reinforcement Learning'
+date: 2015-05-01
 permalink: /posts/2023/05/blog-post-irl/
 tags:
   - Reinforcement Learning
