@@ -59,7 +59,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-7;
+  font-size: $type-size-8;
 
   & + p {
     text-indent: 0;
@@ -146,7 +146,7 @@
 
     .archive__item-excerpt {
       display: block;
-      font-size: $type-size-7;
+      font-size: $type-size-8;
     }
   }
 }
@@ -181,7 +181,7 @@
     font-size: 1.25rem;
 
     .archive__item-teaser {
-      margin-bottom: 2em;
+      margin-bottom: 1.5em;
     }
 
     @include breakpoint($small) {
@@ -202,7 +202,7 @@
     font-size: 1.25rem;
 
     .archive__item-teaser {
-      margin-bottom: 2em;
+      margin-bottom: 1.5em;
     }
 
     @include breakpoint($small) {
@@ -225,7 +225,7 @@
     font-size: 1.25rem;
 
     .archive__item-teaser {
-      margin-bottom: 2em;
+      margin-bottom: 1.5em;
     }
 
     @include breakpoint($small) {
