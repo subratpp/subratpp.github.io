@@ -16,9 +16,9 @@ Welcome! I am a PhD (CS) student working on explainability of RL policies.
 
 ## News!
 
-* <span style="font-family: Courier New; font-size:4em;">\[Jan 2023\] I am starting my PhD (CS) at NTU Singapore. I will be working under the supervision of [Arvind](https://personal.ntu.edu.sg/arvinde/) and [Blaise](https://perso.crans.org/genest/) on **interpretable RL policies**. My PhD is funded by the Descartes Program.</span><img src="/files/descartes_logo.jpg"  width="40%" alt="descartes logo" align="right">
+* <img src="/files/descartes_logo.jpg"  width="40%" alt="descartes logo" align="right"><span style="font-family: Courier New; font-size:1em;">\[Jan 2023\] I am starting my PhD (CS) at NTU Singapore. I will be working under the supervision of [Arvind](https://personal.ntu.edu.sg/arvinde/) and [Blaise](https://perso.crans.org/genest/) on **interpretable RL policies**. My PhD is funded by the Descartes Program.</span>
 
-* Updating...{: .notice--info}
+* Updating...
 
 
 
