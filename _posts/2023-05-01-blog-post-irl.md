@@ -6,6 +6,7 @@ tags:
   - Reinforcement Learning
   - Interpretability
   - Explainability
+  - Explainable AI
 ---
 
 Contents are reused from <cite>Interpretable Machine Learning by Christoph Molnar</cite>. Please visit the [original source](https://christophm.github.io/interpretable-ml-book/) for more details.
@@ -13,16 +14,16 @@ Contents are reused from <cite>Interpretable Machine Learning by Christoph Molna
 
 1.What is Interpretability?
 ------
-Interpretability refers to how much a human can understand a model's behavior [2]. An interpretable model can be represented as a simple mathematical equation or a decision tree (DT), which shows how the model makes its predictions. If a model can be represented as a polynomial equation or a DT, it is considered interpretable. However, some researchers only consider a model to be interpretable if it can be easily understood by humans.
+Interpretability refers to how much a human can understand a model's behavior [2]. An interpretable model can be represented as a simple mathematical equation or a decision tree (DT), which shows how the model makes its predictions. If a model can be represented as a polynomial equation or a DT, it is considered interpretable.
 
-For example, a small decision tree with 10 nodes is interpretable because a person can follow the steps and see how the model makes its predictions. On the other hand, a large DT with 1000 nodes is not considered interpretable because it becomes too complex for humans to understand.
+However, some researchers only consider a model to be interpretable if it can be easily understood by humans. For example, a small decision tree with 10 nodes is interpretable because a person can follow the steps and see how the model makes its predictions. On the other hand, a large DT with 1000 nodes is not considered interpretable because it becomes too complex for humans to understand.
 
 In this blog, we will focus on the broader definition of interpretability, which is that a model can be considered interpretable if it can be represented as a decision tree or a concise equation, even if it is lengthy.
 
 
 2.Interpretability vs Explainability
 ------
-Interpretable models are also known as "white-box models" because they provide a clear understanding of how the model works. However, explainability is different from interpretability in that it refers to the ability to explain how the model behaves after it has been trained.
+Interpretable models are actually "white-box models" because they provide a clear understanding of how the model works. However, explainability is different from interpretability in that it refers to the ability to explain how the model behaves after it has been trained.
 
 For example, let's say we train a neural network to classify images. The model's behavior is not immediately apparent just by looking at the network architecture. To explain how the model works, we can examine the weights of the neurons in the network. By doing this, we can see which features of the image are most important for the model's predictions.
 
