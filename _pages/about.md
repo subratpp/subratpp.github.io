@@ -16,7 +16,7 @@ I am a PhD student in the School of Computer Science and Engineering at NTU, Sin
 
 ## News
 
-* [May 2023] Blog on [Interpretable Reinforcement Learning](/posts/2023/05/blog-post-irl/) is out.
+* <span style="font-family: Courier New;">[May 2023] Blog on [Interpretable Reinforcement Learning](/posts/2023/05/blog-post-irl/) is out.</span>
 
 * <img src="/files/descartes_logo.jpg"  width="35%" alt="descartes logo" align="right"><span style="font-family: Courier New;">\[Jan 2023\] I am starting my PhD (CS) at NTU Singapore. I will be working under the supervision of [Arvind](https://personal.ntu.edu.sg/arvinde/) and [Blaise](https://perso.crans.org/genest/) on **interpretable RL policies**. My PhD is funded by the Descartes Program.</span>
 
