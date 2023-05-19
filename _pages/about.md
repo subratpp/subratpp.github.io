@@ -1,15 +1,14 @@
 ---
 permalink: /
-title: "Hello!"
-excerpt: "About me!"
+title: "Hi"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Welcome! I am a PhD (CS) student working on explainability of RL policies.
-
+I am a PhD student in the School of Computer Science and Engineering at NTU, Singapore. My research focus is on the interpretability of RL policies, specifically making them trustworthy. Currently, I am studying the application of decision trees in RL. I am also interested in Computer Vision and Deep Learning. Additionally, I have a strong interest in Computer Vision and Deep Learning. Before joining NTU, I completed my master's degree at ISI Kolkata and my bachelor's degree at NIT Silchar. 
 
 **Coming Soon!**: my first [blog](/posts/2023/05/blog-post-irl/) on Interpretability of RL policies.
 {: .notice}
