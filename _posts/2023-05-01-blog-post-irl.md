@@ -41,7 +41,7 @@ The following techniques are commonly used for post-training explainability, but
 3.Interpretable Models
 ------
 
-Follwoing are the two main approaches for creating interpretable models:
+Following are the two main approaches for creating interpretable models:
 
 1. Decision Trees: The nodes of the decision tree determine which path should be taken to reach a particular leaf node. Examples of decision trees include Binary Decision Trees, Decision Rules (Non-binary DT), and RuleFit (DT leaf node representation).
 
@@ -52,8 +52,15 @@ Follwoing are the two main approaches for creating interpretable models:
 4.Interpretable Reinforcement Learning
 -----
 
-coming soon!
-{: .notice}
+Interpretable approaches in RL can be broadly catagorised into two categories:
+
+1. **Imitation Learning**: Imitation learning is a type of machine learning that involves learning from demonstrations. The goal is to learn a policy that mimics the behavior of an expert (can be a well trained NN). This approach can be used to train an interpretable policy, which can then be used for reinforcement learning.
+
+2. **On-policy RL**: In this approach, RL policies are made differentaible by using some form of approximation. This allows us to train the policy using gradient descent, which is a common technique for training neural networks.
+
+Both of these approaches do approximations to train interpretable RL policy. It is a topic of research to find best possible policy with minimum approximation.
+
+
 
 References
 ------
