@@ -15,6 +15,7 @@ I am a PhD student in the School of Computer Science and Engineering at NTU, Sin
 
 
 ## News
+* <span style="font-family: Courier New;">[Aug 2023] Appointed as Director of Career and Development in Gratudate Students' Club (SCSE).</span>
 
 * <span style="font-family: Courier New;">[May 2023] Blog on [Interpretable Reinforcement Learning](/posts/2023/05/blog-post-irl/) is out.</span>
 
