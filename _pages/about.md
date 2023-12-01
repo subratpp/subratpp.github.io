@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the School of Computer Science and Engineering at NTU, Singapore. My research focus is on the interpretability of RL policies, specifically making them trustworthy. Currently, I am studying the application of decision trees in RL. I am also interested in Computer Vision and Deep Learning. Additionally, I have a strong interest in Computer Vision and Deep Learning. Before joining NTU, I completed my master's degree at ISI Kolkata and my bachelor's degree at NIT Silchar. 
-
+I am a PhD student in the School of Computer Science and Engineering at NTU, Singapore. My research focus is on the interpretability of RL policies, specifically making them trustworthy. Currently, I am studying the application of decision trees in RL. Additionally, I have a strong interest in Computer Vision and Deep Learning. Before joining NTU, I completed my master's degree at ISI Kolkata and my bachelor's degree at NIT Silchar. 
 <!-- **Coming Soon!**: my first [blog](/posts/2023/05/blog-post-irl/) on Interpretability of RL policies.
 {: .notice} -->
 
