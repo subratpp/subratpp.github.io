@@ -15,7 +15,7 @@ I am a PhD student in the School of Computer Science and Engineering at NTU, Sin
 
 ## News
 
-* <span style="font-family: Courier New;">[Aug 2024] Our DTSemNet paper which proposes a novel method to train the oblique decision tree using gradient descent got accepted in ECAI 2024 ["Vanilla Gradient Descent for Oblique Decision Trees"](https://cps-research-group.github.io/dtsemnet/).</span>
+* <span style="font-family: Courier New;">[Aug 2024] Our [DTSemNet](https://cps-research-group.github.io/dtsemnet/) paper which proposes a novel method to train oblique decision trees using gradient descent got accepted in ECAI 2024 ["Vanilla Gradient Descent for Oblique Decision Trees"](https://arxiv.org/abs/2408.09135).</span>
 
 * <span style="font-family: Courier New;">[Jan 2024] We are organizing a [Deep Learning Bootcamp](https://ntu-dl-bootcamp.github.io/deep-learning-2024/) in NTU.</span>
 
