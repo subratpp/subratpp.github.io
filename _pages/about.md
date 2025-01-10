@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the School of Computer Science and Engineering at NTU, Singapore. My research focuses on RL policies' interpretability, making them trustworthy and amenable to verification. Currently, I am studying the application of decision trees as RL policies. Additionally, I have a strong interest in Computer Vision and Deep Learning. Before joining NTU, I completed my master's degree at ISI Kolkata and my bachelor's degree at NIT Silchar. 
+I am a PhD candidate in Computer Science at NTU, Singapore, with a broad interest in **Trustworthy Reinforcement Learning** and its applications in safety-critical domains. My research focuses on enhancing the transparency, safety, robustness, and verifiability of RL policies. Currently, I am exploring programmatic policies (e.g. Decision Trees) for trustworthy RL, leveraging their interpretability and amenability for verification to achieve trustworthiness. Beyond this, I am also interested in Neurosymbolic AI and dedicate a little time to understanding the theoretical foundations of learning-based methods (Learning Theory).
+Before joining NTU, I completed my graduate degree in Computer Science at ISI Kolkata, India, and my undergraduate degree in Electronics and Instrumentation at NIT Silchar, India.
 <!-- **Coming Soon!**: my first [blog](/posts/2023/05/blog-post-irl/) on Interpretability of RL policies.
 {: .notice} -->
 
