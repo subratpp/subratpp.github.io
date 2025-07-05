@@ -10,7 +10,7 @@ redirect_from:
 
 I am a PhD candidate in Computer Science at NTU Singapore, broadly interested in **Trustworthy Reinforcement Learning** and its applications to safety-critical domains. My research focuses on improving the transparency, safety, robustness, and verifiability of RL policies. Currently, I am exploring neurosymbolic approaches, such as **programmatic policies**, to enhance trustworthiness by leveraging their inherent interpretability and amenability to formal verification.
 
-In parallel, I have a strong interest in **Neurosymbolic AI**, particularly in developing end-to-end methods that support explicit knowledge representation and reasoning, integrating both System 1 (intuitive) and System 2 (deliberative) processes. I am also committed to strengthening my theoretical foundations by studying mathematical topics relevant to AI, including learning theory, logic, and statistics.
+In parallel, I have a strong interest in **Neurosymbolic AI**, particularly in developing end-to-end methods that support explicit knowledge representation and reasoning, integrating both System 1 (intuitive) and System 2 (deliberative) processes. To deepen my conceptual understanding of AI, I actively study foundational mathematical topics such as learning theory, logic, and statistics.
 
 Before joining NTU, I completed my Master's degree in Computer Science at the Indian Statistical Institute (ISI), Kolkata, India, and my Bachelor's degree in Electronics and Instrumentation at NIT Silchar, India. 
 
