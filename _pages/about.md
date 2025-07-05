@@ -8,9 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Computer Science at NTU, Singapore, with a broad interest in **Trustworthy Reinforcement Learning** and its applications in safety-critical domains. My research focuses on enhancing the transparency, safety, robustness, and verifiability of RL policies. Currently, I am exploring programmatic policies (e.g. Decision Trees) for trustworthy RL, leveraging their interpretability and amenability for verification to achieve trustworthiness. In addition, I have a strong interest in **Neurosymbolic AI** and dedicate time to honing my theoretical skills by studying Learning Theory and mathematical topics relevant to AI.
+I am a PhD candidate in Computer Science at NTU Singapore, broadly interested in **Trustworthy Reinforcement Learning** and its applications to safety-critical domains. My research focuses on improving the transparency, safety, robustness, and verifiability of RL policies. Currently, I am exploring neurosymbolic approaches, such as **programmatic policies**, to enhance trustworthiness by leveraging their inherent interpretability and amenability to formal verification.
 
-Before joining NTU, I completed my graduate degree in Computer Science at ISI Kolkata, India, and my undergraduate degree in Electronics and Instrumentation at NIT Silchar, India.
+In parallel, I have a strong interest in **Neurosymbolic AI**, particularly in developing end-to-end methods that support explicit knowledge representation and reasoning, integrating both System 1 (intuitive) and System 2 (deliberative) processes. I am also committed to strengthening my theoretical foundations by studying mathematical topics relevant to AI, including learning theory, logic, and statistics.
+
+Before joining NTU, I completed my Master's degree in Computer Science at the Indian Statistical Institute (ISI), Kolkata, India, and my Bachelor's degree in Electronics and Instrumentation at NIT Silchar, India. 
+
+**Coming Soon!**: Giving Back -- a series of notebooks implementing NeSy/RLHF/GenAI models from scratch.
+{: .notice}
+
 <!-- **Coming Soon!**: my first [blog](/posts/2023/05/blog-post-irl/) on Interpretability of RL policies.
 {: .notice} -->
 
