@@ -1,10 +1,10 @@
 ---
+layout: archive
+title: "Giving Back"
 permalink: /giving-back/
-title: "Markdown"
 author_profile: true
-redirect_from: 
-  - /giving-back/
-  - /giving-back.html
+redirect_from:
+  - /giving
 ---
 
 {% include base_path %}
