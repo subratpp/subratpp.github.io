@@ -14,7 +14,7 @@ In parallel, I have a strong interest in **Neurosymbolic AI**, particularly in d
 
 Before joining NTU, I completed my Master's degree in Computer Science at the Indian Statistical Institute (ISI), Kolkata, India, and my Bachelor's degree in Electronics and Instrumentation at NIT Silchar, India. 
 
-**Coming Soon!**: Giving Back -- a series of notebooks implementing NeSy/RLHF/GenAI models from scratch.
+**Coming Soon!**: Giving Back -- a series of notebooks implementing NeSy/GenAI models from scratch.
 {: .notice}
 
 <!-- **Coming Soon!**: my first [blog](/posts/2023/05/blog-post-irl/) on Interpretability of RL policies.
@@ -23,6 +23,7 @@ Before joining NTU, I completed my Master's degree in Computer Science at the In
 
 
 ## News
+* [RLFT](https://subratpp.github.io/giving-back/): Notebooks that train a nanoGPT model (Andrej Karpathy) on a digit addition dataset, followed by GRPO-based fine-tuning for subtraction.
 
 * <span style="font-family: Courier New;">[Apr 2025] [AI4X](https://ai4x.cc/) Workshop paper on [Programmatic Reinforcement Learning for Trustworthy Microgrid Management](https://openreview.net/forum?id=S27okPWTtk&noteId=S27okPWTtk), which discusses the ∂PRL approach for energy management in microgrids.</span>
 
