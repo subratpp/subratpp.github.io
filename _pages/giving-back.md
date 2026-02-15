@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-======
+===
 
 - **RLFT**  
   A lightweight research-oriented project built on **nanoGPT** (Andrej Karpathy) to study reinforcement learning–based fine-tuning on a controlled toy setting.  
@@ -20,3 +20,6 @@ redirect_from:
   The project further analyzes **token embedding geometry** before and after GRPO-based fine-tuning to investigate whether **emergent structure or behavior** arises in the latent space, particularly from supervised learning on addition alone.
 
   Code and experiments: https://github.com/subratpp/rlft
+
+- **F1Tenth**
+  Tried to setup F1Tenth car from scratch till simple pure pursuit algorithm. https://github.com/subratpp/f1tenth  
