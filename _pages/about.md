@@ -23,9 +23,9 @@ Before joining NTU, I completed my Master's degree in Computer Science at the In
 
 
 ## Updates
-* <span style="font-family: Courier New;">[Feb 2026] [RL Fine Tuning Notebook](https://subratpp.github.io/giving-back/): Notebooks that train a nanoGPT model (Andrej Karpathy) on a digit addition dataset, followed by GRPO-based fine-tuning for subtraction.</span>
+* <span style="font-family: Courier New;">[Feb 2026] [RL Fine Tuning Notebook](https://github.com/subratpp/rlft): Notebooks that train a nanoGPT model (Andrej Karpathy) on a digit addition dataset, followed by GRPO-based fine-tuning for subtraction.</span>
 
-* <span style="font-family: Courier New;">[Jan 2026] [F1Tenth](https://subratpp.github.io/giving-back/): Basic implementation till pure pursuit on the F1Tenth car.</span>
+* <span style="font-family: Courier New;">[Jan 2026] [F1Tenth](https://github.com/subratpp/f1tenth): Learned ROS and implementated basic version till pure pursuit on the F1Tenth car.</span>
 
 * <span style="font-family: Courier New;">[Aug 2025] Appointed as Vice President in Graduate Students' Club (CCDS).</span>
 
