@@ -9,49 +9,37 @@ redirect_from:
 
 {% include base_path %}
 
+[View Resume here](http://subratpp.github.io/files/cv.pdf)
+
 Education
 ======
-* B.Tech. in Electronics and Instrumentation Engineering, NIT Silchar, India, 2016
+* Ph.D in Computer Science, NTU Singapore, 2027
 * M.Tech. in Computer Science, ISI Kolkata, India, 2021
-* Ph.D (ongoing) in Computer Science and Engineering, NTU Singapore, 2027 (expected)
+* B.Tech. in Electronics and Instrumentation Engineering, NIT Silchar, India, 2016
+
 
 Work experience
 ======
-* CNRS@CREATE May'22-Dec'22: Research Associate
-  * Application of RL to Optimization Problem in Microgrid
-  * Duties included: Research
-  * Supervisor: Dr. Blaise and Prof. Arvind
+* Research Associate, CNRS@CREATE, May'22-Dec'22: 
+  * Application of RL to optimization resource allocation problem in microgrids
 
-* Infocusp Dec'21-May'22: Machine Learning Engineer
-  * Solving ARC
-  * Duties included: GP, Autoencoder and VAE implementation
-  
-Skills
-======
-* Deep Learning
-* Machine Learning
-* Reinforcement Learning
+* Machine Learning Engineer, Infocusp (in contract with Google X), Dec'21-May'22: 
+  * Solving ARC with Genetic Programming, Autoencoders and VAEs
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-<!-- Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+* Research Engineer, TIHAN, IIT Hyderabad, July'21-Oct'21
+  * Setting up test bed for autonomous navigation 
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+* Reinforcement Learning (Deep Learning Bootcamp 2026, NTU)
+  * [View Materials](https://github.com/ntu-dl-bootcamp/deep-learning-2026/tree/main/SESSION5)
   
-Service and leadership
+Services and Mentorship
 ======
-* NTU SCSE GSC Member
+* Reviewer: AAAI, ECAI, CAV, IEEE TSMC, HSCC/ICCPS
+* Vice President, NTU CCDS GSC, AY 2025-2026
+* Mentoring:
+  * URECA and FYP students
+  * [DeepSpeed](https://ntudeepspeed.github.io/): F1Tenth Autonomous Racing Team of NTU
 
-[Download CV here](http://subratpp.github.io/files/cv.pdf)
+
