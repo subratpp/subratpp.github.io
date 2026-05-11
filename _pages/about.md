@@ -23,7 +23,7 @@ Before joining NTU, I completed my Master's degree in Computer Science at the In
 
 
 ## Updates
-* <span style="font-family: Courier New;">[May 2026]: Our paper "Approximation-Free Differentiable Oblique Decision Trees" has been accepted to JMLR. In this work, we propose a Top-K inspired method to handle regression tasks and continuous RL environments. </span>
+* <span style="font-family: Courier New;">[May 2026]: Our paper "[Approximation-Free Differentiable Oblique Decision Trees](https://arxiv.org/abs/2605.07837)" has been accepted to JMLR Vol. 27 (2026). In this work, we propose a Top-k inspired method to handle regression tasks and continuous RL environments. </span>
 
 * <span style="font-family: Courier New;">[Feb 2026] [RL Fine Tuning Notebook](https://github.com/subratpp/rlft): Notebooks that train a nanoGPT model (Andrej Karpathy) on a digit addition dataset, followed by GRPO-based fine-tuning for subtraction.</span>
 
