@@ -23,7 +23,7 @@ Before joining NTU, I completed my Master's degree in Computer Science at the In
 
 
 ## Updates
-* <span style="font-family: Courier New;">[June 2026]: Our paper "[Neurosymbolic Reasoning with Incremental Knowledge for Sample Efficient Hierarchical Reinforcement Learning](https://ecmlpkdd.org/2026/)" has been accepted to ECML-PKDD 2026. In this work, we show that using incremental knowledge to learn the abstract world model, instead of learning the abstract world model upfront, improves sample efficiency. To enable the integration of knowledge that creates dependencies between states, we propose Belief World Tree Search (BWTS). (paper/codes to be made public soon). </span>
+* <span style="font-family: Courier New;">[June 2026]: Our paper "[Neurosymbolic Reasoning with Incremental Knowledge for Sample Efficient Hierarchical Reinforcement Learning](https://arxiv.org/abs/2608.02993)" is accepted to ECML-PKDD 2026. In this work, we show that using incremental knowledge to learn the abstract world model, instead of learning the abstract world model upfront, improves sample efficiency. To enable the integration of knowledge that creates dependencies between states, we propose Belief World Tree Search (BWTS).</span>
 
 * <span style="font-family: Courier New;">[May 2026]: Our paper "[Approximation-Free Differentiable Oblique Decision Trees](http://jmlr.org/papers/v27/25-2047.html)" has been accepted to JMLR Vol. 27 (2026). In this work, we propose a Top-k inspired method to handle regression tasks and continuous RL environments. </span>
 
