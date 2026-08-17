@@ -14,6 +14,9 @@ In parallel, I have a strong interest in **Neurosymbolic AI**, particularly in d
 
 Before joining NTU, I completed my Master's degree in Computer Science at the Indian Statistical Institute (ISI), Kolkata, India, and my Bachelor's degree in Electronics and Instrumentation at NIT Silchar, India. 
 
+**Looking for Postdoc Opportunity**: I'll be submitting my thesis around Dec 2026 and am looking for postdoc opportunities starting Feb 2027 in neurosymbolic reinforcement learning for trustworthy deployment. I am interested in combining symbolic methods with neural approaches through differentiable techniques to improve interpretability and safety, and integrates symbolic knowledge to boost sample efficiency, with applications in areas like robotics and energy systems.
+{: .notice}
+
 **Coming Soon!**: Giving Back: a series of notebooks implementing NeSy models from scratch.
 {: .notice}
 
