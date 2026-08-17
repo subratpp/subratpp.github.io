@@ -14,7 +14,7 @@ In parallel, I have a strong interest in **Neurosymbolic AI**, particularly in d
 
 Before joining NTU, I completed my Master's degree in Computer Science at the Indian Statistical Institute (ISI), Kolkata, India, and my Bachelor's degree in Electronics and Instrumentation at NIT Silchar, India. 
 
-**Coming Soon!**: Giving Back: a series of notebooks implementing NeSy/GenAI models from scratch.
+**Coming Soon!**: Giving Back: a series of notebooks implementing NeSy models from scratch.
 {: .notice}
 
 <!-- **Coming Soon!**: my first [blog](/posts/2023/05/blog-post-irl/) on Interpretability of RL policies.
@@ -23,6 +23,8 @@ Before joining NTU, I completed my Master's degree in Computer Science at the In
 
 
 ## Updates
+* <span style="font-family: Courier New;">[Aug 2026]: Notebook "[RLFT-GRPO](https://github.com/subratpp/rlft)" is now available which uses simple toy problem to demonstrate the training of LLMs using RLFT. Used Nano-GPT for addition/subtraction problem. </span>
+
 * <span style="font-family: Courier New;">[June 2026]: Our paper "[Neurosymbolic Reasoning with Incremental Knowledge for Sample Efficient Hierarchical Reinforcement Learning](https://arxiv.org/abs/2608.02993)" is accepted to ECML-PKDD 2026. In this work, we show that using incremental knowledge to learn the abstract world model, instead of learning the abstract world model upfront, improves sample efficiency. To enable the integration of knowledge that creates dependencies between states, we propose Belief World Tree Search (BWTS).</span>
 
 * <span style="font-family: Courier New;">[May 2026]: Our paper "[Approximation-Free Differentiable Oblique Decision Trees](http://jmlr.org/papers/v27/25-2047.html)" has been accepted to JMLR Vol. 27 (2026). In this work, we propose a Top-k inspired method to handle regression tasks and continuous RL environments. </span>
