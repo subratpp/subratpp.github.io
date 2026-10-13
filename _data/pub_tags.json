@@ -1,0 +1,32 @@
+[
+  {
+    "name": "RL",
+    "slug": "rl",
+    "count": 6
+  },
+  {
+    "name": "Neurosymbolic",
+    "slug": "neurosymbolic",
+    "count": 4
+  },
+  {
+    "name": "Edge AI",
+    "slug": "edge-ai",
+    "count": 3
+  },
+  {
+    "name": "Hierarchical RL",
+    "slug": "hierarchical-rl",
+    "count": 1
+  },
+  {
+    "name": "Knowledge",
+    "slug": "knowledge",
+    "count": 1
+  },
+  {
+    "name": "Planning",
+    "slug": "planning",
+    "count": 1
+  }
+]

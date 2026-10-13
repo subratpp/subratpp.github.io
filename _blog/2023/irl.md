@@ -1,7 +1,7 @@
 ---
 title: 'Interpretable Reinforcement Learning'
 date: 2023-05-01
-permalink: /posts/2023/05/blog-post-irl/
+redirect_from: /posts/2023/05/blog-post-irl/  # old URL
 tags:
   - Reinforcement Learning
   - Interpretability

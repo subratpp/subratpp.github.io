@@ -1,0 +1,4 @@
+{%- for a in include.authors -%}
+  {%- if a.me -%}<span class="me">{{ a.name }}</span>{%- else -%}{{ a.name }}{%- endif -%}
+  {%- unless forloop.last -%}{%- if forloop.rindex == 2 -%}{%- if forloop.length > 2 -%},{%- endif %} and {% else %}, {% endif -%}{%- endunless -%}
+{%- endfor -%}

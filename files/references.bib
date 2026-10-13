@@ -1,0 +1,152 @@
+% Entry types used on the website (scripts/bib2json.py):
+%   @journal      journal article           (journal = {...})
+%   @conference   conference paper          (booktitle = {...})
+%   @workshop     workshop paper / abstract (howpublished = {...})
+%   @talk         talk, tutorial, lecture   (howpublished = {...})
+%   @underreview  under review: NO venue, keeps it double-blind
+% Optional link fields: url, doi, arxiv, pdf, code, project, slides, video, poster
+% Tags for the publications filter: keywords = {RL, Neurosymbolic, ...}
+% The standard types (@article, @inproceedings, @misc, @unpublished) still work too.
+
+%%% UNDER REVIEW  (on acceptance: change to @conference/@journal and add the venue)
+%%%%%%%%%%%%%%%
+
+@underreview{panda2027b,
+  keywords = {RL, Hierarchical RL},
+  title   = {Critical Option-Critic via Distributional {RL}},
+  author  = {Panda, Subrat Prasad and Prashant, Mohit and Easwaran, Arvind},
+    year    = {2027}
+}
+
+@underreview{panda2027a,
+  keywords = {Verification, Neurosymbolic, RL},
+  title   = {Learning Abstractions for the Safety Verification of RL Policies},
+  author  = {Panda, Subrat Prasad and Yuke, Liao and Genest, Blaise and Zikelic, Djordje and Easwaran, Arvind},
+    year    = {2027}
+}
+
+@underreview{panda2027_workshop_a,
+  keywords = {Neurosymbolic, RL},
+  title   = {Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning},
+  author  = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},
+    year    = {2027}
+}
+
+
+%%% CONFERENCES
+%%%%%%%%%%%%%%%
+
+@conference{panda2026a,
+  keywords = {RL, Hierarchical RL, Neurosymbolic, Planning, Knowledge},
+  arxiv   = {https://arxiv.org/abs/2608.02993},
+  code    = {https://github.com/CPS-research-group/ink_bwts},
+  title   = {Neurosymbolic Reasoning with Incremental Knowledge for Sample Efficient Hierarchical Reinforcement Learning},
+  author  = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},
+  booktitle = {ECML-PKDD},
+  year    = {2026}
+}
+
+@conference{dtsemnet,
+  keywords = {Neurosymbolic, RL},
+  arxiv = {https://arxiv.org/abs/2408.09135},
+  code = {https://github.com/CPS-research-group/dtsemnet},
+  project = {https://cps-research-group.github.io/dtsemnet/},
+  title = {Vanilla Gradient Descent for Oblique Decision Trees},
+  url = {http://dx.doi.org/10.3233/FAIA240607},
+  DOI = {10.3233/faia240607},
+  booktitle = {European Conference on Artificial Intelligence (ECAI)},
+  publisher = {IOS Press},
+  author = {Panda,  Subrat Prasad and Genest,  Blaise and Easwaran,  Arvind and Suganthan,  Ponnuthurai Nagaratnam},
+  year = {2024},
+  month = oct 
+}
+
+@conference{panda2021user,
+  keywords = {RL, Edge AI},
+  code={https://github.com/subratpp/mec_alloc_rl},
+  title={User Allocation in Mobile Edge Computing: A Deep Reinforcement Learning Approach},
+  author={Panda, Subrat Prasad and Banerjee, Ansuman and Bhattacharya, Arani},
+  booktitle={2021 IEEE International Conference on Web Services (ICWS)},
+  pages={447--458},
+  year={2021},
+  organization={IEEE}
+}
+
+@conference{panda2020dynamic,
+  keywords = {Edge AI},
+  title={Dynamic Edge User Allocation with User Specified {QoS} Preferences},
+  author={Panda, Subrat Prasad and Ray, Kaustabha and Banerjee, Ansuman},
+  booktitle={International Conference on Service-Oriented Computing},
+  pages={187--197},
+  year={2020},
+  organization={Springer}
+}
+
+@conference{panda2021service,
+  keywords = {Edge AI},
+  title={Service Allocation/Placement in Multi-Access Edge Computing with Workload Fluctuations},
+  author={Panda, Subrat Prasad and Ray, Kaustabha and Banerjee, Ansuman},
+  booktitle={International Conference on Service-Oriented Computing},
+  pages={747--755},
+  year={2021},
+  organization={Springer}
+}
+
+
+%%%% JOURNALS
+%%%%%%%%%%%%%%
+
+@journal{panda2024methods,
+  keywords = {RL},
+  doi={10.1016/j.segan.2024.101334},
+  title={Methods for Mitigating Uncertainty in Real-Time Operations of a Connected Microgrid},
+  author={Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind and Rigo-Mariani, R{\'e}my and Lin, Pengfeng},
+  journal={Sustainable Energy, Grids and Networks},
+  volume={38},
+  pages={101334},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@journal{panda2025jmlr,
+  keywords = {Neurosymbolic, RL},
+  url     = {http://jmlr.org/papers/v27/25-2047.html},
+  code    = {https://github.com/CPS-research-group/dtsemnet},
+  title   = {Approximation-Free Differentiable Oblique Decision Trees},
+  author  = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},
+  journal = {Journal of Machine Learning Research (JMLR)},
+  volume  = {27},
+  year    = {2026}
+}
+
+
+
+
+%%% WORKSHOPS
+%%%%%%%%%%%%%%%
+@workshop{panda2025programmatic,
+  keywords = {RL, Neurosymbolic},
+  url          = {https://openreview.net/forum?id=S27okPWTtk},
+  title        = {Programmatic Reinforcement Learning for Trustworthy Microgrid Management},
+  author       = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},
+  year         = {2025},
+  howpublished = {AI4X International Conference},
+  note         = {}
+}
+
+%%% TALKS
+%%%%%%%%%%%%%%%
+@talk{panda2026_talk_rennes,
+  title        = {Neurosymbolic Techniques for Safe Reinforcement Learning},
+  author       = {Panda, Subrat Prasad},
+  howpublished = {Invited talk, 68NQRT Seminar, ICUR, Rennes, France, Sep.},
+  year         = {2026}
+}
+
+@talk{panda2026_dl_bootcamp,
+  slides       = {https://github.com/ntu-dl-bootcamp/deep-learning-2026/tree/main/SESSION5},
+  title        = {Reinforcement Learning},
+  author       = {Panda, Subrat Prasad},
+  howpublished = {Tutorial lecture with hands-on notebooks, \href{https://github.com/ntu-dl-bootcamp/deep-learning-2026/tree/main/SESSION5}{Deep Learning Bootcamp 2026}, NTU Singapore},
+  year         = {2026}
+}

@@ -1,7 +1,7 @@
 ---
 title: 'Sample Inefficiencies in RL'
-date: 2023-05-01
-permalink: /posts/2023/05/blog-post-sample_rl/
+date: 2025-09-10
+redirect_from: /posts/2023/05/blog-post-sample_rl/  # old URL
 tags:
   - Reinforcement Learning
   - Sample Inefficiency

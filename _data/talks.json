@@ -1,0 +1,43 @@
+[
+  {
+    "key": "panda2026_talk_rennes",
+    "title": "Neurosymbolic Techniques for Safe Reinforcement Learning",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      }
+    ],
+    "venue": "Invited talk, 68NQRT Seminar, ICUR, Rennes, France, Sep.",
+    "year": 2026,
+    "kind": "talk",
+    "status": "published",
+    "note": "",
+    "tags": [],
+    "links": [],
+    "bibtex": "@misc{panda2026_talk_rennes,\n  title        = {Neurosymbolic Techniques for Safe Reinforcement Learning},\n  author       = {Panda, Subrat Prasad},\n  howpublished = {Invited talk, 68NQRT Seminar, ICUR, Rennes, France, Sep.},\n  year         = {2026}\n}"
+  },
+  {
+    "key": "panda2026_dl_bootcamp",
+    "title": "Reinforcement Learning",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      }
+    ],
+    "venue": "Tutorial lecture with hands-on notebooks, <a href=\"https://github.com/ntu-dl-bootcamp/deep-learning-2026/tree/main/SESSION5\">Deep Learning Bootcamp 2026</a>, NTU Singapore",
+    "year": 2026,
+    "kind": "talk",
+    "status": "published",
+    "note": "",
+    "tags": [],
+    "links": [
+      {
+        "label": "slides",
+        "href": "https://github.com/ntu-dl-bootcamp/deep-learning-2026/tree/main/SESSION5"
+      }
+    ],
+    "bibtex": "@misc{panda2026_dl_bootcamp,\n  title        = {Reinforcement Learning},\n  author       = {Panda, Subrat Prasad},\n  howpublished = {Tutorial lecture with hands-on notebooks, \\href{https://github.com/ntu-dl-bootcamp/deep-learning-2026/tree/main/SESSION5}{Deep Learning Bootcamp 2026}, NTU Singapore},\n  year         = {2026}\n}"
+  }
+]

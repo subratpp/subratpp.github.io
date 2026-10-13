@@ -1,0 +1,4 @@
+<li><time>{{ include.n.date }}</time><div class="news-body">
+  {{ include.n.text | markdownify }}
+  {%- if include.n.image %}<img class="news-img" src="{{ include.n.image | relative_url }}" alt="{{ include.n.image_alt | default: '' }}" loading="lazy">{% endif %}
+</div></li>

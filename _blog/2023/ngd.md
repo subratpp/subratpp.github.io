@@ -1,7 +1,7 @@
 ---
 title: 'Gradient Free Approaches to Update Weights in Deep Learning'
 date: 2023-05-15
-permalink: /posts/2023/05/blog-post-ngd/
+redirect_from: /posts/2023/05/blog-post-ngd/  # old URL
 tags:
   - Deep Learning
   - Gradient-Free Descent

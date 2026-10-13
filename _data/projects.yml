@@ -1,0 +1,30 @@
+# Sections and projects on the /code/ page. `paper` is optional.
+- section: Research code
+  items:
+    - name: DTSemNet
+      repo: https://github.com/CPS-research-group/dtsemnet
+      desc: Differentiable oblique decision trees and tree policies for RL.
+      paper: JMLR 2026, ECAI 2024
+    - name: InK-BWTS
+      repo: https://github.com/CPS-research-group/ink_bwts
+      desc: Neurosymbolic hierarchical RL with Belief World Tree Search.
+      paper: ECML-PKDD 2026
+    - name: F1Tenth
+      repo: https://github.com/subratpp/f1tenth
+      desc: ROS 2 race stack (SLAM, particle-filter localisation, pure pursuit) on Jetson AGX.
+
+- section: Giving back
+  note: Notebook-style tutorials that build things from scratch on toy problems. Ongoing.
+  items:
+    - name: Deep RL Jutsu
+      repo: https://github.com/subratpp/deep-rl-jutsu
+      desc: Deep RL algorithms from scratch (DQN, DDPG, SAC, PPO), with a curated guide to RL libraries.
+    - name: GenAI
+      repo: https://github.com/subratpp/generative_ai
+      desc: Small-scale VAE, GAN, diffusion, state-space models, CLIP and VLA on toy problems.
+    - name: RLFT
+      repo: https://github.com/subratpp/rlft
+      desc: RL fine-tuning of foundation models — RLHF, DPO and GRPO, from a from-scratch GPT to a pretrained LLM.
+    - name: Neurosymbolic
+      repo: https://github.com/subratpp/neurosymbolic
+      desc: Neurosymbolic approaches implemented on toy problems.

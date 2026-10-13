@@ -1,0 +1,18 @@
+{%- assign p = include.pub -%}
+<li class="pub" id="{{ p.key }}" data-tags="{{ p.tag_slugs }}">
+  <span class="pub-title">{{ p.title }}</span>
+  {%- if p.authors.size > 1 %}<span class="pub-authors">{% include authors.html authors=p.authors %}</span>{% endif %}
+  {%- if p.venue != "" %}
+  <span class="pub-venue">
+    <em>{{ p.venue }}</em>{% if include.show_year %}, {{ p.year }}{% endif %} <span class="badge">{{ p.kind }}</span>
+  </span>
+  {%- endif %}
+  {%- if p.tags.size > 0 %}
+  <span class="pub-tags">{% for t in p.tags %}<span class="c-{{ site.data.tag_colors[t] | default: 'slate' }}">{{ t }}</span>{% endfor %}</span>
+  {%- endif %}
+  <span class="links">
+    {%- for l in p.links -%}<a href="{{ l.href }}">{{ l.label }}</a>{%- endfor -%}
+    {%- if p.bibtex -%}<button type="button" class="bib-toggle" aria-expanded="false">bib</button>{%- endif -%}
+  </span>
+  {%- if p.bibtex %}<pre class="bibtex" hidden><code>{{ p.bibtex | escape }}</code></pre>{% endif %}
+</li>

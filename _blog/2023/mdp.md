@@ -1,13 +1,11 @@
 ---
 title: 'Are our lives an MDP?'
 date: 2023-01-01
-permalink: /posts/2023/01/blog-post-mdp/
+redirect_from: /posts/2023/01/blog-post-mdp/  # old URL
 tags:
   - Reinforcement Learning
   - MDP
 ---
-
-# Are our lives an MDP?
 
 Those who have a machine learning background might be aware of Markov’s decision process (MDP), which is a very important concept in reinforcement learning. For those who are hearing this word for the first time, Markov’s Processes are those processes in which the present state is fully independent of the past states; hence, the present state holds all historical information. This blog describes this process from a philosophical point of view of human life.
 

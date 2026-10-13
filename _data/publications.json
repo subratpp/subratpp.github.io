@@ -1,0 +1,403 @@
+[
+  {
+    "key": "panda2027b",
+    "title": "Critical Option-Critic via Distributional RL",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Mohit Prashant",
+        "me": false
+      },
+      {
+        "name": "Arvind Easwaran",
+        "me": false
+      }
+    ],
+    "venue": "",
+    "year": 2027,
+    "kind": "preprint",
+    "status": "review",
+    "note": "",
+    "tags": [
+      "RL",
+      "Hierarchical RL"
+    ],
+    "links": [],
+    "bibtex": "@unpublished{panda2027b,\n  title   = {Critical Option-Critic via Distributional {RL}},\n  author  = {Panda, Subrat Prasad and Prashant, Mohit and Easwaran, Arvind},\n    year    = {2027}\n}",
+    "tag_slugs": "rl hierarchical-rl"
+  },
+  {
+    "key": "panda2027a",
+    "title": "Learning Abstractions for the Safety Verification of RL Policies",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Liao Yuke",
+        "me": false
+      },
+      {
+        "name": "Blaise Genest",
+        "me": false
+      },
+      {
+        "name": "Djordje Zikelic",
+        "me": false
+      },
+      {
+        "name": "Arvind Easwaran",
+        "me": false
+      }
+    ],
+    "venue": "",
+    "year": 2027,
+    "kind": "preprint",
+    "status": "review",
+    "note": "",
+    "tags": [
+      "Verification",
+      "Neurosymbolic",
+      "RL"
+    ],
+    "links": [],
+    "bibtex": "@unpublished{panda2027a,\n  title   = {Learning Abstractions for the Safety Verification of RL Policies},\n  author  = {Panda, Subrat Prasad and Yuke, Liao and Genest, Blaise and Zikelic, Djordje and Easwaran, Arvind},\n    year    = {2027}\n}",
+    "tag_slugs": "verification neurosymbolic rl"
+  },
+  {
+    "key": "panda2027_workshop_a",
+    "title": "Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Blaise Genest",
+        "me": false
+      },
+      {
+        "name": "Arvind Easwaran",
+        "me": false
+      }
+    ],
+    "venue": "",
+    "year": 2027,
+    "kind": "preprint",
+    "status": "review",
+    "note": "",
+    "tags": [
+      "Neurosymbolic",
+      "RL"
+    ],
+    "links": [],
+    "bibtex": "@unpublished{panda2027_workshop_a,\n  title   = {Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning},\n  author  = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},\n    year    = {2027}\n}",
+    "tag_slugs": "neurosymbolic rl"
+  },
+  {
+    "key": "panda2025jmlr",
+    "title": "Approximation-Free Differentiable Oblique Decision Trees",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Blaise Genest",
+        "me": false
+      },
+      {
+        "name": "Arvind Easwaran",
+        "me": false
+      }
+    ],
+    "venue": "Journal of Machine Learning Research (JMLR)",
+    "year": 2026,
+    "kind": "journal",
+    "status": "published",
+    "note": "",
+    "tags": [
+      "Neurosymbolic",
+      "RL"
+    ],
+    "links": [
+      {
+        "label": "paper",
+        "href": "http://jmlr.org/papers/v27/25-2047.html"
+      },
+      {
+        "label": "code",
+        "href": "https://github.com/CPS-research-group/dtsemnet"
+      }
+    ],
+    "bibtex": "@article{panda2025jmlr,\n  url     = {http://jmlr.org/papers/v27/25-2047.html},\n  title   = {Approximation-Free Differentiable Oblique Decision Trees},\n  author  = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},\n  journal = {Journal of Machine Learning Research (JMLR)},\n  volume  = {27},\n  year    = {2026}\n}",
+    "tag_slugs": "neurosymbolic rl"
+  },
+  {
+    "key": "panda2026a",
+    "title": "Neurosymbolic Reasoning with Incremental Knowledge for Sample Efficient Hierarchical Reinforcement Learning",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Blaise Genest",
+        "me": false
+      },
+      {
+        "name": "Arvind Easwaran",
+        "me": false
+      }
+    ],
+    "venue": "ECML-PKDD",
+    "year": 2026,
+    "kind": "conference",
+    "status": "published",
+    "note": "",
+    "tags": [
+      "RL",
+      "Hierarchical RL",
+      "Neurosymbolic",
+      "Planning",
+      "Knowledge"
+    ],
+    "links": [
+      {
+        "label": "arxiv",
+        "href": "https://arxiv.org/abs/2608.02993"
+      },
+      {
+        "label": "code",
+        "href": "https://github.com/CPS-research-group/ink_bwts"
+      }
+    ],
+    "bibtex": "@inproceedings{panda2026a,\n  title   = {Neurosymbolic Reasoning with Incremental Knowledge for Sample Efficient Hierarchical Reinforcement Learning},\n  author  = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},\n  booktitle = {ECML-PKDD},\n  year    = {2026}\n}",
+    "tag_slugs": "rl hierarchical-rl neurosymbolic planning knowledge"
+  },
+  {
+    "key": "panda2025programmatic",
+    "title": "Programmatic Reinforcement Learning for Trustworthy Microgrid Management",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Blaise Genest",
+        "me": false
+      },
+      {
+        "name": "Arvind Easwaran",
+        "me": false
+      }
+    ],
+    "venue": "AI4X International Conference",
+    "year": 2025,
+    "kind": "workshop",
+    "status": "published",
+    "note": "",
+    "tags": [
+      "RL",
+      "Neurosymbolic"
+    ],
+    "links": [
+      {
+        "label": "paper",
+        "href": "https://openreview.net/forum?id=S27okPWTtk"
+      }
+    ],
+    "bibtex": "@misc{panda2025programmatic,\n  url          = {https://openreview.net/forum?id=S27okPWTtk},\n  title        = {Programmatic Reinforcement Learning for Trustworthy Microgrid Management},\n  author       = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},\n  year         = {2025},\n  howpublished = {AI4X International Conference},\n  note         = {}\n}",
+    "tag_slugs": "rl neurosymbolic"
+  },
+  {
+    "key": "panda2024methods",
+    "title": "Methods for Mitigating Uncertainty in Real-Time Operations of a Connected Microgrid",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Blaise Genest",
+        "me": false
+      },
+      {
+        "name": "Arvind Easwaran",
+        "me": false
+      },
+      {
+        "name": "Rémy Rigo-Mariani",
+        "me": false
+      },
+      {
+        "name": "Pengfeng Lin",
+        "me": false
+      }
+    ],
+    "venue": "Sustainable Energy, Grids and Networks",
+    "year": 2024,
+    "kind": "journal",
+    "status": "published",
+    "note": "",
+    "tags": [
+      "RL"
+    ],
+    "links": [
+      {
+        "label": "paper",
+        "href": "https://doi.org/10.1016/j.segan.2024.101334"
+      }
+    ],
+    "bibtex": "@article{panda2024methods,\n  doi={10.1016/j.segan.2024.101334},\n  title={Methods for Mitigating Uncertainty in Real-Time Operations of a Connected Microgrid},\n  author={Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind and Rigo-Mariani, R{\\'e}my and Lin, Pengfeng},\n  journal={Sustainable Energy, Grids and Networks},\n  volume={38},\n  pages={101334},\n  year={2024},\n  publisher={Elsevier}\n}",
+    "tag_slugs": "rl"
+  },
+  {
+    "key": "dtsemnet",
+    "title": "Vanilla Gradient Descent for Oblique Decision Trees",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Blaise Genest",
+        "me": false
+      },
+      {
+        "name": "Arvind Easwaran",
+        "me": false
+      },
+      {
+        "name": "Ponnuthurai Nagaratnam Suganthan",
+        "me": false
+      }
+    ],
+    "venue": "European Conference on Artificial Intelligence (ECAI)",
+    "year": 2024,
+    "kind": "conference",
+    "status": "published",
+    "note": "",
+    "tags": [
+      "Neurosymbolic",
+      "RL"
+    ],
+    "links": [
+      {
+        "label": "arxiv",
+        "href": "https://arxiv.org/abs/2408.09135"
+      },
+      {
+        "label": "paper",
+        "href": "http://dx.doi.org/10.3233/FAIA240607"
+      },
+      {
+        "label": "code",
+        "href": "https://github.com/CPS-research-group/dtsemnet"
+      },
+      {
+        "label": "project",
+        "href": "https://cps-research-group.github.io/dtsemnet/"
+      }
+    ],
+    "bibtex": "@inproceedings{dtsemnet,\n  title = {Vanilla Gradient Descent for Oblique Decision Trees},\n  url = {http://dx.doi.org/10.3233/FAIA240607},\n  DOI = {10.3233/faia240607},\n  booktitle = {European Conference on Artificial Intelligence (ECAI)},\n  publisher = {IOS Press},\n  author = {Panda,  Subrat Prasad and Genest,  Blaise and Easwaran,  Arvind and Suganthan,  Ponnuthurai Nagaratnam},\n  year = {2024},\n  month = oct \n}",
+    "tag_slugs": "neurosymbolic rl"
+  },
+  {
+    "key": "panda2021user",
+    "title": "User Allocation in Mobile Edge Computing: A Deep Reinforcement Learning Approach",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Ansuman Banerjee",
+        "me": false
+      },
+      {
+        "name": "Arani Bhattacharya",
+        "me": false
+      }
+    ],
+    "venue": "2021 IEEE International Conference on Web Services (ICWS)",
+    "year": 2021,
+    "kind": "conference",
+    "status": "published",
+    "note": "",
+    "tags": [
+      "RL",
+      "Edge AI"
+    ],
+    "links": [
+      {
+        "label": "code",
+        "href": "https://github.com/subratpp/mec_alloc_rl"
+      }
+    ],
+    "bibtex": "@inproceedings{panda2021user,\n  title={User Allocation in Mobile Edge Computing: A Deep Reinforcement Learning Approach},\n  author={Panda, Subrat Prasad and Banerjee, Ansuman and Bhattacharya, Arani},\n  booktitle={2021 IEEE International Conference on Web Services (ICWS)},\n  pages={447--458},\n  year={2021},\n  organization={IEEE}\n}",
+    "tag_slugs": "rl edge-ai"
+  },
+  {
+    "key": "panda2021service",
+    "title": "Service Allocation/Placement in Multi-Access Edge Computing with Workload Fluctuations",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Kaustabha Ray",
+        "me": false
+      },
+      {
+        "name": "Ansuman Banerjee",
+        "me": false
+      }
+    ],
+    "venue": "International Conference on Service-Oriented Computing",
+    "year": 2021,
+    "kind": "conference",
+    "status": "published",
+    "note": "",
+    "tags": [
+      "Edge AI"
+    ],
+    "links": [],
+    "bibtex": "@inproceedings{panda2021service,\n  title={Service Allocation/Placement in Multi-Access Edge Computing with Workload Fluctuations},\n  author={Panda, Subrat Prasad and Ray, Kaustabha and Banerjee, Ansuman},\n  booktitle={International Conference on Service-Oriented Computing},\n  pages={747--755},\n  year={2021},\n  organization={Springer}\n}",
+    "tag_slugs": "edge-ai"
+  },
+  {
+    "key": "panda2020dynamic",
+    "title": "Dynamic Edge User Allocation with User Specified QoS Preferences",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Kaustabha Ray",
+        "me": false
+      },
+      {
+        "name": "Ansuman Banerjee",
+        "me": false
+      }
+    ],
+    "venue": "International Conference on Service-Oriented Computing",
+    "year": 2020,
+    "kind": "conference",
+    "status": "published",
+    "note": "",
+    "tags": [
+      "Edge AI"
+    ],
+    "links": [],
+    "bibtex": "@inproceedings{panda2020dynamic,\n  title={Dynamic Edge User Allocation with User Specified {QoS} Preferences},\n  author={Panda, Subrat Prasad and Ray, Kaustabha and Banerjee, Ansuman},\n  booktitle={International Conference on Service-Oriented Computing},\n  pages={187--197},\n  year={2020},\n  organization={Springer}\n}",
+    "tag_slugs": "edge-ai"
+  }
+]

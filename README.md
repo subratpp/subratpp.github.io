@@ -1,31 +1,117 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# subratpp.github.io
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+Personal academic site of Subrat Prasad Panda, live at <https://subratpp.github.io>.
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+A small, theme-free [Jekyll](https://jekyllrb.com/) site, built and served by GitHub Pages on every push to `master`. No build step runs on GitHub's side except Jekyll itself.
 
-# Instructions
+## After edits
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+There's nothing to compile. GitHub Pages rebuilds the site about a minute after every push.
 
-See more info at https://academicpages.github.io/
+| You edited | Then |
+| --- | --- |
+| a blog post (`_blog/`), news, CV, code page, bio, `_config.yml`, anything else | commit and push |
+| `files/references.bib` | run `pixi run pubs` first, then commit and push the `.bib` **and** `_data/*.json` |
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+```bash
+git add -A && git commit -m "new post" && git push
+```
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+Running the site locally (below) is optional. Use it to preview bigger changes before pushing.
 
-# Changelog -- bugfixes and enhancements
+## Run locally
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+You need [pixi](https://pixi.sh). It installs Ruby and Python into `.pixi/` inside this folder, so nothing touches your system.
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+```bash
+# one-time
+curl -fsSL https://pixi.sh/install.sh | bash   # or: brew install pixi
+pixi install          # Ruby 3.3, Python 3.12, compilers
+pixi run install      # Jekyll + plugins (same versions as GitHub Pages) into vendor/
+
+# every time
+pixi run serve        # http://localhost:4000, reloads on save
+```
+
+| Task | What it does |
+| --- | --- |
+| `pixi run serve` | Regenerate publications, then serve with live reload |
+| `pixi run build` | Regenerate publications, then build into `_site/` |
+| `pixi run pubs` | Only regenerate `_data/publications.json` and `_data/talks.json` from the `.bib` |
+
+`_config.yml` is not hot-reloaded; restart `serve` after editing it.
+
+## Where things live
+
+```text
+_config.yml              site title, your links (scholar, github, …), nav menu
+_pages/about.md          home page: bio + postdoc callout
+_pages/cv.md             short HTML CV (full CVs: files/cv_academic.pdf, files/cv_industry.pdf)
+_data/news.yml           news items on the home page (any order; sorted by date)
+_data/projects.yml       the /code/ page
+_data/interests.yml      "interests & skills" panel on the home page
+_data/tag_colors.yml     colour of each publication tag
+files/references.bib     source of truth for /publications/ and /talks/
+_data/*.json             GENERATED from the .bib; don't edit by hand
+_blog/YYYY/name.md       blog posts, one folder per year
+_layouts/, _includes/    HTML templates
+files/                   everything served as-is: cv_academic.pdf, cv_industry.pdf, references.bib, images, style.css
+scripts/bib2json.py      .bib → JSON converter (stdlib Python only)
+```
+
+## Common edits
+
+### Add a blog post
+
+Create `_blog/YYYY/short-name.md` (make the year folder if it's new). The URL is `/posts/YYYY/MM/short-name/`.
+
+```markdown
+---
+title: My new post
+date: 2026-10-13
+tags: [Reinforcement Learning, Interpretability]
+---
+
+Write Markdown here. Math works: inline $\pi(a \mid s)$ or display
+
+$$
+V^\pi(s) = \mathbb{E}_\pi\left[\sum_t \gamma^t r_t \mid s_0 = s\right]
+$$
+```
+
+`date` is required, because it sets the order and the URL. Tags show up as filters on `/blog/`. To keep a post unpublished, add `published: false`.
+
+### Add a paper or talk
+
+1. Add the entry to `files/references.bib`, choosing the type by what it is:
+
+   | Type | Use for | Venue field |
+   | --- | --- | --- |
+   | `@journal` | journal article | `journal` |
+   | `@conference` | conference paper | `booktitle` |
+   | `@workshop` | workshop paper, student abstract | `howpublished` |
+   | `@talk` | invited talk, tutorial, lecture (goes to /talks/) | `howpublished` |
+   | `@underreview` | submitted paper. **Leave out the venue** to keep it double-blind | none |
+
+   When an `@underreview` paper is accepted, change it to `@conference`/`@journal` and add the venue. The standard names (`@article`, `@inproceedings`, `@misc`, `@unpublished`) still work.
+
+   Tag papers with `keywords = {RL, Neurosymbolic}` (any number, comma-separated). Tags on published papers become the topic filter on `/publications/`. Give a new tag a colour in `_data/tag_colors.yml` (otherwise it's grey).
+
+   Optional link fields become buttons on the site:
+
+   ```bibtex
+   arxiv   = {https://arxiv.org/abs/...},
+   code    = {https://github.com/...},
+   project = {https://...},          % also: pdf, slides, video, poster, url, doi
+   ```
+
+2. Run `pixi run pubs` (or just `pixi run serve`, which runs it for you).
+3. Commit the `.bib` **and** the regenerated `_data/publications.json` / `_data/talks.json`. GitHub Pages can't run Python, so it builds from the committed JSON.
+
+### Add a news item
+
+Add an entry to `_data/news.yml` (`date: YYYY-MM`, `text`, optional `image`). The home page shows the latest year's news; earlier years are folded under "older news", grouped by year.
+
+## Deploy (details)
+
+Push to `master`. GitHub Pages builds the site in about a minute.

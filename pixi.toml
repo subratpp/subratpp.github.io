@@ -1,0 +1,23 @@
+[workspace]
+name = "subratpp.github.io"
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "osx-64", "linux-64"]
+
+[dependencies]
+ruby = "3.3.*"
+python = "3.12.*"
+c-compiler = "*"
+cxx-compiler = "*"
+make = "*"
+pkg-config = "*"
+
+[activation.env]
+BUNDLE_PATH = "vendor/bundle"
+LANG = "en_US.UTF-8"
+LC_ALL = "en_US.UTF-8"
+
+[tasks]
+install = "bundle install"
+pubs = "python scripts/bib2json.py"
+serve = { cmd = "bundle exec jekyll serve --livereload", depends-on = ["pubs"] }
+build = { cmd = "bundle exec jekyll build", depends-on = ["pubs"] }

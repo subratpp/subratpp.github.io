@@ -1,0 +1,22 @@
+# "Interests & skills" panel on the home page. `area` is the row label; `short` is the pill in the folded line.
+# `color`: teal, violet, rose, blue, slate, amber
+- area: Reinforcement Learning
+  short: RL
+  color: teal
+  items: [Hierarchical & goal-conditioned RL, Sample-efficient learning, Sparse-reward & long-horizon tasks, Robust & distributional RL, RL fine-tuning of foundation models]
+- area: Neurosymbolic AI
+  short: Neurosymbolic AI
+  color: violet
+  items: [Programmatic & interpretable policies, Differentiable decision trees, Symbolic planning with incremental knowledge, Interpretable abstractions & world models]
+- area: Safety & Verification
+  short: Verification
+  color: rose
+  items: [Formal verification of learned controllers, Reach-avoid & safety certificates, Abstraction-based reasoning]
+- area: Applications
+  short: CPS & robotics
+  color: blue
+  items: [Cyber-physical systems, Microgrid energy management, Autonomous navigation & robotics, LLM planning for embodied agents]
+- area: Tools
+  short: Tools
+  color: slate
+  items: [Python, C, PyTorch, TensorFlow, ROS 2, MATLAB, LaTeX]

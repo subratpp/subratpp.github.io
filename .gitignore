@@ -1,2 +1,20 @@
+# Jekyll build output & caches
 _site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
 
+# Local environments (recreated by `pixi install` / `pixi run install`)
+.pixi/
+vendor/
+.bundle/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+*.swp

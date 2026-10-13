@@ -1,0 +1,9 @@
+# Colour for each publication tag (bib `keywords`). Options: teal, violet, rose, blue, amber, green, slate.
+# Tags not listed here are slate.
+RL: teal
+Neurosymbolic: violet
+Verification: rose
+Edge AI: blue
+Hierarchical RL: amber
+Knowledge: green
+Planning: slate

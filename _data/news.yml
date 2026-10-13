@@ -1,0 +1,27 @@
+# `date` is YYYY-MM; order doesn't matter (sorted automatically). `text` is Markdown.
+# The latest year shows on the home page; earlier years go under "older news".
+# Optional: `image` (path under /files/) and `image_alt`.
+- date: 2026-08
+  text: Released [RLFT](https://github.com/subratpp/rlft) — notebooks training nanoGPT on digit arithmetic, then GRPO fine-tuning for subtraction.
+- date: 2026-06
+  text: "[Neurosymbolic Reasoning with Incremental Knowledge for Sample Efficient Hierarchical RL](https://arxiv.org/abs/2608.02993) accepted at **ECML-PKDD 2026**. We learn the abstract world model incrementally and propose Belief World Tree Search (BWTS)."
+- date: 2026-05
+  text: "[Approximation-Free Differentiable Oblique Decision Trees](http://jmlr.org/papers/v27/25-2047.html) accepted at **JMLR** (vol. 27) — extends DTSemNet to regression and continuous-action RL."
+- date: 2026-01
+  text: Built an [F1Tenth](https://github.com/subratpp/f1tenth) ROS 2 race stack, up to pure pursuit.
+- date: 2025-08
+  text: Appointed Vice President, Graduate Students' Club (CCDS), NTU.
+- date: 2025-04
+  text: "[Programmatic RL for Trustworthy Microgrid Management](https://openreview.net/forum?id=S27okPWTtk) at the [AI4X](https://ai4x.cc/) workshop."
+- date: 2024-08
+  text: "[DTSemNet](https://cps-research-group.github.io/dtsemnet/) — training oblique decision trees with vanilla gradient descent — accepted at **ECAI 2024**."
+- date: 2024-01
+  text: Co-organized NTU's first [Deep Learning Bootcamp](https://ntu-dl-bootcamp.github.io/deep-learning-2024/).
+- date: 2023-08
+  text: Appointed Director of Career and Development, Graduate Students' Club (SCSE), NTU.
+- date: 2023-05
+  text: New post on [Interpretable Reinforcement Learning](/posts/2023/05/irl/).
+- date: 2023-01
+  text: Started my PhD at NTU Singapore with [Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/) and [Blaise Genest](https://perso.crans.org/genest/), funded by the DesCartes programme.
+  image: /files/descartes_logo.jpg
+  image_alt: DesCartes programme logo
