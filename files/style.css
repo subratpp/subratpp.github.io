@@ -157,6 +157,23 @@ th, td { border-bottom: 1px solid var(--faint); padding: .4rem .6rem; text-align
   .interests dd { margin-bottom: .6rem; }
 }
 
+/* highlights */
+.highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.hl {
+  display: flex; flex-direction: column;
+  border: 1px solid var(--faint); border-top: 3px solid var(--c); border-radius: 6px;
+  padding: .9rem 1.1rem;
+}
+.hl h3 { margin: 0 0 .4rem; line-height: 1.35; }
+.hl-name { display: block; font: 600 1.05rem var(--mono); color: var(--c); }
+.hl-tagline { display: block; font-size: .85rem; font-weight: 400; color: var(--muted); }
+.hl p { margin: 0 0 .8rem; font-size: .9rem; line-height: 1.55; flex: 1; }
+.hl-foot { display: flex; flex-direction: column; gap: .45rem; }
+.hl-venues { display: flex; flex-wrap: wrap; gap: .3rem; }
+.hl .links { margin-top: 0; }
+.hl-more { margin: .6rem 0 0; text-align: right; font: .8rem var(--mono); }
+@media (max-width: 640px) { .highlights { grid-template-columns: 1fr; } }
+
 .callout {
   background: var(--accent-soft);
   border-left: 3px solid var(--accent);

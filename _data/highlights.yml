@@ -1,0 +1,21 @@
+# "highlights" cards on the home page: your main contributions, in your own words.
+# color: teal, violet, rose, blue, amber, green, slate
+- name: DTSemNet
+  color: violet
+  tagline: Oblique decision trees, trained like neural networks
+  desc: An exact, approximation-free encoding of oblique decision trees as neural networks, so trees train end-to-end with vanilla gradient descent. The resulting tree policies are interpretable and amenable to formal safety verification.
+  venues: [JMLR 2026, ECAI 2024]
+  links:
+    - { label: jmlr, href: "http://jmlr.org/papers/v27/25-2047.html" }
+    - { label: ecai, href: "https://arxiv.org/abs/2408.09135" }
+    - { label: code, href: "https://github.com/CPS-research-group/dtsemnet" }
+    - { label: project, href: "https://cps-research-group.github.io/dtsemnet/" }
+
+- name: BWTS
+  color: teal
+  tagline: Belief World Tree Search
+  desc: Neurosymbolic hierarchical RL that builds its abstract world model from incrementally added knowledge, rather than learning it upfront, improving sample efficiency on sparse-reward, long-horizon tasks.
+  venues: [ECML-PKDD 2026]
+  links:
+    - { label: arxiv, href: "https://arxiv.org/abs/2608.02993" }
+    - { label: code, href: "https://github.com/CPS-research-group/ink_bwts" }

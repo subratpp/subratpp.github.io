@@ -50,6 +50,7 @@ _pages/cv.md             short HTML CV (full CVs: files/cv_academic.pdf, files/c
 _data/news.yml           news items on the home page (any order; sorted by date)
 _data/projects.yml       the /code/ page
 _data/interests.yml      "interests & skills" panel on the home page
+_data/highlights.yml     "highlights" cards on the home page (your key papers, in your words)
 _data/tag_colors.yml     colour of each publication tag
 files/references.bib     source of truth for /publications/ and /talks/
 _data/*.json             GENERATED from the .bib; don't edit by hand

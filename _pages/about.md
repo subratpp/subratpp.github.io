@@ -33,12 +33,27 @@ redirect_from: [/about/, /about.html]
 </details>
 
 <div class="bio" markdown="1">
-I'm a PhD candidate in Computer Science at NTU Singapore working on **trustworthy reinforcement learning** for safety-critical systems: making RL policies transparent, safe and verifiable. Lately that means **neurosymbolic** methods, especially **programmatic policies** that let domain knowledge in and, being interpretable, are amenable to formal verification.
+I'm a PhD candidate in Computer Science at NTU Singapore, advised by [Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/) (NTU) and [Blaise Genest](https://perso.crans.org/genest/) (CNRS IPAL, France), working on **trustworthy reinforcement learning** for safety-critical systems: making RL policies transparent, safe and verifiable. In particular, I work on **neurosymbolic** techniques, especially **symbolic policies** that are amenable to formal verification, and on learning methods to train them.
 
-More broadly I'm interested in neurosymbolic AI that couples fast, intuitive (System 1) learning with explicit, deliberative (System 2) reasoning, and in the maths underneath it all: learning theory and statistics.
+More broadly, I'm interested in neurosymbolic AI that integrates intuitive (System 1) learning with explicit, deliberative (System 2) reasoning, and in the maths underneath it all: learning theory and statistics.
 
 Before NTU, I did an M.Tech in Computer Science at [ISI Kolkata](https://www.isical.ac.in/) and a B.Tech in Electronics & Instrumentation at [NIT Silchar](https://www.nits.ac.in/).
 </div>
+
+<h2 class="section">highlights</h2>
+<div class="highlights">
+  {%- for h in site.data.highlights %}
+  <article class="hl c-{{ h.color | default: 'slate' }}">
+    <h3><span class="hl-name">{{ h.name }}</span> <span class="hl-tagline">{{ h.tagline }}</span></h3>
+    <p>{{ h.desc }}</p>
+    <div class="hl-foot">
+      <span class="hl-venues">{% for v in h.venues %}<span class="pill">{{ v }}</span>{% endfor %}</span>
+      <span class="links">{% for l in h.links %}<a href="{{ l.href }}">{{ l.label }}</a>{% endfor %}</span>
+    </div>
+  </article>
+  {%- endfor %}
+</div>
+<p class="hl-more"><a href="{{ '/publications/' | relative_url }}">all publications →</a></p>
 
 <details class="callout">
   <summary><strong>Looking for postdoc / research roles.</strong></summary>
