@@ -56,6 +56,7 @@ files/references.bib     source of truth for /publications/ and /talks/
 _data/*.json             GENERATED from the .bib; don't edit by hand
 _blog/YYYY/name.md       blog posts, one folder per year
 _layouts/, _includes/    HTML templates
+_includes/aside/         left sidebars on wide screens (a page opts in with `aside: <name>`)
 files/                   everything served as-is: cv_academic.pdf, cv_industry.pdf, references.bib, images, style.css
 scripts/bib2json.py      .bib → JSON converter (stdlib Python only)
 ```

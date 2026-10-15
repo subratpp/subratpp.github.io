@@ -1,0 +1,19 @@
+{%- assign posts = site.blog | reverse -%}
+{%- assign tags = posts | map: "tags" | join: "|" | split: "|" | uniq | sort -%}
+<h2 class="section">at a glance</h2>
+<ul class="stats">
+  <li><b>{{ posts.size }}</b> posts</li>
+  <li><b>{{ tags.size }}</b> topics</li>
+</ul>
+{%- if posts.size > 0 %}<p class="muted side-note">since {{ posts.last.date | date: '%Y' }}</p>{% endif %}
+
+{%- if tags.size > 0 %}
+<h2 class="section">topics</h2>
+<div class="tag-filter" role="group" aria-label="Filter by tag">
+  <button type="button" data-tag="" aria-pressed="true">all</button>
+  {%- for t in tags %}
+  {%- assign n = posts | where_exp: "p", "p.tags contains t" | size %}
+  <button type="button" data-tag="{{ t | slugify }}" aria-pressed="false">#{{ t | slugify }} <span class="muted">{{ n }}</span></button>
+  {%- endfor %}
+</div>
+{%- endif %}

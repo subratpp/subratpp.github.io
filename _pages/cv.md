@@ -2,10 +2,11 @@
 title: CV
 permalink: /cv/
 redirect_from: [/resume/]
+aside: cv
 lead: 'The short version. Full CV as PDF: <a href="/files/cv_academic.pdf" target="_blank" rel="noopener">academic</a> · <a href="/files/cv_industry.pdf" target="_blank" rel="noopener">industry</a>.'
 ---
 
-<h2 class="section">education</h2>
+<h2 class="section" id="education">education</h2>
 <ul class="cv-list">
   <li><span class="when">2023 – 2027</span><div>
     <p><strong>Ph.D., Computer Science</strong> · NTU Singapore</p>
@@ -23,7 +24,7 @@ lead: 'The short version. Full CV as PDF: <a href="/files/cv_academic.pdf" targe
   </div></li>
 </ul>
 
-<h2 class="section">experience</h2>
+<h2 class="section" id="experience">experience</h2>
 <ul class="cv-list">
   <li><span class="when">2022 – 2023</span><div>
     <p><strong>Research Associate</strong> · CNRS@CREATE, Singapore</p>
@@ -39,7 +40,7 @@ lead: 'The short version. Full CV as PDF: <a href="/files/cv_academic.pdf" targe
   </div></li>
 </ul>
 
-<h2 class="section">teaching & mentoring</h2>
+<h2 class="section" id="teaching-mentoring">teaching & mentoring</h2>
 <ul class="cv-list">
   <li><span class="when">2026</span><div>
     <p><strong>Reinforcement Learning</strong> · Deep Learning Bootcamp, NTU</p>
@@ -59,14 +60,14 @@ lead: 'The short version. Full CV as PDF: <a href="/files/cv_academic.pdf" targe
   </div></li>
 </ul>
 
-<h2 class="section">service</h2>
+<h2 class="section" id="service">service</h2>
 <ul class="cv-list">
   <li><span class="when">reviewer</span><div><p>NeurIPS, AAAI, AAMAS, ECAI, CAV, RTSS, NeSy, IEEE TSMC</p></div></li>
   <li><span class="when">2025 – 2026</span><div><p>Vice President, CCDS Graduate Students' Club, NTU</p></div></li>
   <li><span class="when">2023 – 2024</span><div><p>Director of Career & Development, SCSE Graduate Students' Club, NTU</p></div></li>
 </ul>
 
-<h2 class="section">awards</h2>
+<h2 class="section" id="awards">awards</h2>
 <ul class="cv-list">
   <li><span class="when">2023 – 2027</span><div><p><strong>DesCartes PhD Scholarship</strong>, CNRS@CREATE (Singapore–France)</p></div></li>
   <li><span class="when">2019 – 2021</span><div><p><strong>M.Tech Scholarship</strong>, ISI Kolkata</p></div></li>

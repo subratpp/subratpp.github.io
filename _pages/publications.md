@@ -2,24 +2,22 @@
 title: Publications
 permalink: /publications/
 lead: "Also on [Google Scholar](https://scholar.google.com/citations?user=-kOZ8c0AAAAJ&hl=en)."
+aside: publications
+wide: true
 ---
 {%- assign review = site.data.publications | where: "status", "review" -%}
+<div class="pubs-layout">
 {%- if review.size > 0 %}
+<section class="pubs-review">
 <h2 class="section">under review</h2>
 <ul class="pubs">
   {%- for p in review %}{% include pub.html pub=p show_year=false %}{% endfor %}
 </ul>
+</section>
 {%- endif %}
 
+<section class="pubs-published">
 <h2 class="section">published</h2>
-{%- if site.data.pub_tags.size > 0 %}
-<div class="tag-filter" id="pub-filter" role="group" aria-label="Filter by topic">
-  <button type="button" data-tag="" aria-pressed="true">all</button>
-  {%- for t in site.data.pub_tags %}
-  <button type="button" class="c-{{ site.data.tag_colors[t.name] | default: 'slate' }}" data-tag="{{ t.slug }}" aria-pressed="false">#{{ t.name }} <span class="muted">{{ t.count }}</span></button>
-  {%- endfor %}
-</div>
-{%- endif %}
 {%- assign published = site.data.publications | where: "status", "published" | group_by: "year" -%}
 {%- for g in published %}
 <details class="year-group"{% if forloop.first %} open{% endif %}>
@@ -29,6 +27,8 @@ lead: "Also on [Google Scholar](https://scholar.google.com/citations?user=-kOZ8c
   </ul>
 </details>
 {%- endfor %}
+</section>
+</div>
 
 <script>
   // topic filter: no tag selected = everything (latest year open); otherwise OR over selected tags

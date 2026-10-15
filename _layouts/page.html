@@ -1,6 +1,17 @@
 ---
 layout: default
 ---
+{%- capture head -%}
 {% if page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
 {% if page.lead %}<p class="lead">{{ page.lead | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
+{%- endcapture -%}
+{%- if page.aside %}
+<div class="with-aside{% if page.wide %} wide{% endif %}">
+  <div class="page-head">{{ head }}</div>
+  <aside class="side">{% include aside/{{ page.aside }}.html %}</aside>
+  <div class="page-body">{{ content }}</div>
+</div>
+{%- else %}
+{{ head }}
 {{ content }}
+{%- endif %}

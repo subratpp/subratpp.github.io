@@ -3,18 +3,9 @@ title: Blog
 permalink: /blog/
 redirect_from: [/year-archive/, /posts/]
 lead: Notes on RL, interpretability and whatever else I'm thinking about.
+aside: blog
 ---
 {%- assign posts = site.blog | reverse -%}
-{%- assign tags = posts | map: "tags" | join: "|" | split: "|" | uniq | sort -%}
-{%- if tags.size > 0 %}
-<div class="tag-filter" role="group" aria-label="Filter by tag">
-  <button type="button" data-tag="" aria-pressed="true">all</button>
-  {%- for t in tags %}
-  {%- assign n = posts | where_exp: "p", "p.tags contains t" | size %}
-  <button type="button" data-tag="{{ t | slugify }}" aria-pressed="false">#{{ t | slugify }} <span class="muted">{{ n }}</span></button>
-  {%- endfor %}
-</div>
-{%- endif %}
 
 {%- assign years = posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
 {%- for y in years %}

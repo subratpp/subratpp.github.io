@@ -2,6 +2,7 @@
 title: Talks & Teaching
 permalink: /talks/
 lead: Invited talks, tutorials and lectures.
+aside: talks
 ---
 <ul class="pubs">
   {%- for t in site.data.talks %}

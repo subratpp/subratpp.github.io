@@ -1,0 +1,28 @@
+{%- assign all = site.data.publications -%}
+{%- assign pub = all | where: "status", "published" -%}
+{%- assign years = pub | map: "year" | sort -%}
+<h2 class="section">at a glance</h2>
+<ul class="stats">
+  <li><b>{{ pub | where: "kind", "journal" | size }}</b> journal</li>
+  <li><b>{{ pub | where: "kind", "conference" | size }}</b> conference</li>
+  <li><b>{{ pub | where: "kind", "workshop" | size }}</b> workshop</li>
+  <li><b>{{ all | where: "status", "review" | size }}</b> under review</li>
+</ul>
+<p class="muted side-note">{{ years.first }}–{{ years.last }}</p>
+
+{%- if site.data.pub_tags.size > 0 %}
+<h2 class="section">topics</h2>
+<div class="tag-filter" id="pub-filter" role="group" aria-label="Filter by topic">
+  <button type="button" data-tag="" aria-pressed="true">all</button>
+  {%- for t in site.data.pub_tags %}
+  <button type="button" class="c-{{ site.data.tag_colors[t.name] | default: 'slate' }}" data-tag="{{ t.slug }}" aria-pressed="false">#{{ t.name }} <span class="muted">{{ t.count }}</span></button>
+  {%- endfor %}
+</div>
+{%- endif %}
+
+<h2 class="section">elsewhere</h2>
+<ul class="side-links">
+  <li><a href="{{ site.author.scholar }}">Google Scholar</a></li>
+  <li><a href="https://orcid.org/{{ site.author.orcid }}">ORCID</a></li>
+  <li><a href="{{ '/files/references.bib' | relative_url }}">references.bib</a></li>
+</ul>

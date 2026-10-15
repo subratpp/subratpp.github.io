@@ -1,0 +1,10 @@
+<h2 class="section">on this page</h2>
+<ul class="side-links">
+  {%- for s in site.data.projects %}
+  <li><a href="#{{ s.section | slugify }}">{{ s.section }}</a> <span class="muted">{{ s.items.size }}</span></li>
+  {%- endfor %}
+</ul>
+<h2 class="section">elsewhere</h2>
+<ul class="side-links">
+  <li><a href="https://github.com/{{ site.author.github }}">{% include icon.html name="github" %} github.com/{{ site.author.github }}</a></li>
+</ul>
