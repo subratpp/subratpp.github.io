@@ -10,7 +10,8 @@ redirect_from: [/about/, /about.html]
   <img src="{{ a.avatar | relative_url }}" alt="{{ a.name }}">
   <div>
     <h1>{{ a.name }}</h1>
-    <p class="role">{{ a.role }}</p>
+    {%- assign role_head = a.role | split: " · " | first %}
+    <p class="role"><span>{{ role_head }}</span> <span>{{ a.role | remove_first: role_head | remove_first: " · " }}</span></p>
     <p class="tagline">{{ a.tagline }}</p>
     <div class="social">
       <a href="mailto:{{ a.email }}">{% include icon.html name="email" %}email</a>
