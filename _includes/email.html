@@ -1,0 +1,7 @@
+{%- comment -%}
+  Email shown for humans, not scrapers: the address never appears in the HTML.
+  "@" is an icon and each "." is a CSS dot, so copying gives "user  domain parts".
+{%- endcomment -%}
+{%- assign em_user = site.author.email | split: "@" | first -%}
+{%- assign em_host = site.author.email | split: "@" | last | split: "." -%}
+<p class="email-line" title="email (replace the symbols)">{% include icon.html name="email" %}<span>{{ em_user }}</span>{% include icon.html name="at" %}{% for part in em_host %}<span>{{ part }}</span>{% unless forloop.last %}<i class="dot" aria-hidden="true"></i>{% endunless %}{% endfor %}</p>

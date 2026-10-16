@@ -13,14 +13,16 @@ redirect_from: [/about/, /about.html]
     {%- assign role_head = a.role | split: " · " | first %}
     <p class="role"><span>{{ role_head }}</span> <span>{{ a.role | remove_first: role_head | remove_first: " · " }}</span></p>
     <p class="tagline">{{ a.tagline }}</p>
+    {% include email.html %}
     <div class="social">
-      <a href="mailto:{{ a.email }}">{% include icon.html name="email" %}email</a>
       <a href="{{ a.scholar }}">{% include icon.html name="scholar" %}scholar</a>
       <a href="https://github.com/{{ a.github }}">{% include icon.html name="github" %}github</a>
       <a href="https://linkedin.com/in/{{ a.linkedin }}">{% include icon.html name="linkedin" %}linkedin</a>
       <a href="https://orcid.org/{{ a.orcid }}">{% include icon.html name="orcid" %}orcid</a>
-      <a href="{{ a.cv_academic | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="cv" %}cv-academic</a>
-      <a href="{{ a.cv_industry | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="cv" %}cv-industry</a>
+      <span class="cv-pair">
+        <a href="{{ a.cv_academic | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="cv" %}cv-acad</a>
+        <a href="{{ a.cv_industry | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="cv" %}cv-industry</a>
+      </span>
     </div>
   </div>
 </section>
