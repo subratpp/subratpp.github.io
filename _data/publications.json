@@ -1,5 +1,35 @@
 [
   {
+    "key": "panda2027_workshop_a",
+    "title": "Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning",
+    "authors": [
+      {
+        "name": "Subrat Prasad Panda",
+        "me": true
+      },
+      {
+        "name": "Blaise Genest",
+        "me": false
+      },
+      {
+        "name": "Arvind Easwaran",
+        "me": false
+      }
+    ],
+    "venue": "AAAI (Student Abstract Track)",
+    "year": 2027,
+    "kind": "workshop",
+    "status": "published",
+    "note": "",
+    "tags": [
+      "Neurosymbolic",
+      "RL"
+    ],
+    "links": [],
+    "bibtex": "@misc{panda2027_workshop_a,\n  title   = {Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning},\n  author  = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},\n  year    = {2027},\n  howpublished = {AAAI (Student Abstract Track)}\n}",
+    "tag_slugs": "neurosymbolic rl"
+  },
+  {
     "key": "panda2027b",
     "title": "Critical Option-Critic via Distributional RL",
     "authors": [
@@ -67,36 +97,6 @@
     "links": [],
     "bibtex": "@unpublished{panda2027a,\n  title   = {Learning Abstractions for the Safety Verification of RL Policies},\n  author  = {Panda, Subrat Prasad and Yuke, Liao and Genest, Blaise and Zikelic, Djordje and Easwaran, Arvind},\n    year    = {2027}\n}",
     "tag_slugs": "verification neurosymbolic rl"
-  },
-  {
-    "key": "panda2027_workshop_a",
-    "title": "Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning",
-    "authors": [
-      {
-        "name": "Subrat Prasad Panda",
-        "me": true
-      },
-      {
-        "name": "Blaise Genest",
-        "me": false
-      },
-      {
-        "name": "Arvind Easwaran",
-        "me": false
-      }
-    ],
-    "venue": "",
-    "year": 2027,
-    "kind": "preprint",
-    "status": "review",
-    "note": "",
-    "tags": [
-      "Neurosymbolic",
-      "RL"
-    ],
-    "links": [],
-    "bibtex": "@unpublished{panda2027_workshop_a,\n  title   = {Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning},\n  author  = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},\n    year    = {2027}\n}",
-    "tag_slugs": "neurosymbolic rl"
   },
   {
     "key": "panda2025jmlr",

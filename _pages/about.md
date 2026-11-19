@@ -68,8 +68,8 @@ Before NTU, I did an M.Tech in Computer Science at [ISI Kolkata](https://www.isi
 <aside class="home-right">
 <div class="home-callouts">
 <details class="callout">
-  <summary><strong>Looking for postdoc / research roles.</strong></summary>
-  <p>I’ll submit my thesis around Dec 2026 and am looking for roles from Feb 2027 in neurosymbolic RL for trustworthy deployment: differentiable symbolic methods for interpretability and safety, and symbolic knowledge for sample efficiency, with applications in robotics and energy systems.</p>
+  <summary><strong>Next chapter -> PostDoc.</strong></summary>
+  <p>I will be probably moving to Europe to start my PostDoc around mid-2027.</p>
 </details>
 
 <details class="callout callout-alt">
