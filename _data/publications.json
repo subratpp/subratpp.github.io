@@ -1,6 +1,6 @@
 [
   {
-    "key": "panda2027_workshop_a",
+    "key": "panda2027_abstract_nesy",
     "title": "Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning",
     "authors": [
       {
@@ -16,7 +16,7 @@
         "me": false
       }
     ],
-    "venue": "AAAI (Student Abstract Track)",
+    "venue": "AAAI 2027 (Student Abstract Track)",
     "year": 2027,
     "kind": "workshop",
     "status": "published",
@@ -26,7 +26,7 @@
       "RL"
     ],
     "links": [],
-    "bibtex": "@misc{panda2027_workshop_a,\n  title   = {Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning},\n  author  = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},\n  year    = {2027},\n  howpublished = {AAAI (Student Abstract Track)}\n}",
+    "bibtex": "@misc{panda2027_abstract_nesy,\n  title   = {Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning},\n  author  = {Panda, Subrat Prasad and Genest, Blaise and Easwaran, Arvind},\n  year    = {2027},\n  howpublished = {AAAI 2027 (Student Abstract Track)}\n}",
     "tag_slugs": "neurosymbolic rl"
   },
   {

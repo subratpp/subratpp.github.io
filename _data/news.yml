@@ -2,7 +2,7 @@
 # The latest year shows on the home page; earlier years go under "older news".
 # Optional: `image` (path under /files/) and `image_alt`.
 - date: 2026-11
-  text: "[Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning]() accepted at **AAAI 2027 (Student Abstract)**. We learn the state abstraction of RL environments represented by **polytopes** which this allows for better interpretability."
+  text: "[Neurosymbolic Learning of Interpretable Abstraction in Reinforcement Learning]() accepted at **AAAI 2027 (Student Abstract)**. This work learns the state abstraction of RL environments represented by **polytopes** which allows for better interpretability."
 - date: 2026-08
   text: Released [RLFT](https://github.com/subratpp/rlft) — notebooks training nanoGPT on digit arithmetic, then GRPO fine-tuning for subtraction.
 - date: 2026-06
