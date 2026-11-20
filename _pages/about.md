@@ -69,7 +69,7 @@ Before NTU, I did an M.Tech in Computer Science at [ISI Kolkata](https://www.isi
 <div class="home-callouts">
 <details class="callout">
   <summary><strong>Next chapter -> PostDoc.</strong></summary>
-  <p>I will be probably moving to Europe to start my PostDoc around mid-2027.</p>
+  <p>Wraping up my thesis and I will start my PostDoc around mid-2027.</p>
 </details>
 
 <details class="callout callout-alt">
